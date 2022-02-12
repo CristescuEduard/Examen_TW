@@ -1,0 +1,33 @@
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.job-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.modify-job-btn,
+.delete-job-btn,
+.view-candidates-btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.modify-job-btn {
+    background-color: rgba(19, 113, 221);
+}
+
+.delete-job-btn {
+    background-color: rgb(218, 56, 45);
+}
+
+.view-candidates-btn {
+    background-color: rgb(37, 190, 37);
+}

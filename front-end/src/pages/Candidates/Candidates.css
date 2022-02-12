@@ -1,0 +1,18 @@
+.candidates-container {
+    max-height: 90%;
+    overflow-y: scroll;
+}
+
+.add-candidate-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.add-candidate-btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: rgb(84, 21, 97);
+}

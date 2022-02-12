@@ -1,0 +1,35 @@
+.candidate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.candidate > h2 {
+    min-width: 250px;
+}
+
+.candidate-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.modify-candidate-btn,
+.delete-candidate-btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.modify-candidate-btn {
+    background-color: rgba(19, 113, 221);
+}
+
+.delete-candidate-btn {
+    background-color: rgb(218, 56, 45);
+}
+
+
